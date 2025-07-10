@@ -1,0 +1,58 @@
+## .NET build artifacts
+bin/
+obj/
+
+## Rider / VS for Mac
+.idea/
+*.sln.iml
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+.vscode/*
+
+## Mac/Linux hidden files
+.DS_Store
+*.swp
+*~
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Dotnet watch / temp files
+*.dotnet-*
+
+## Logs
+*.log
+
+## Test results
+TestResults/
+*.trx
+
+## Auto-generated files
+Generated_Code/
+Generated_*/**
+
+## Coverage results
+coverage/
+*.coverage
+*.coveragexml
+lcov.info
+
+## Backup files
+*.bak
+*.tmp
+*.old
+
+## Global JSON SDK settings
+global.json.user
