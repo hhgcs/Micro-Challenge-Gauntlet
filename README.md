@@ -1,6 +1,3 @@
-# Micro-Challenge-Gauntlet
-Series of microchallenges to overcome skill stagnation
-
 # Micro-Challenge Gauntlet  
 *From “junior who waits for clarity” to **senior who ships under fire***  
 
