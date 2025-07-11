@@ -21,7 +21,7 @@ Copy these rules into every project’s `README`. Break one and the checkbox sta
 ## 🔥 Challenge Ladder
 
 ### 0. Warm-Up (48 h cap)
-- [ ] **FizzBuzz, but evil** – every 7th call must run in ≤ 1 µs (micro-benchmark).
+- [ ] ~~**FizzBuzz, but evil** – every 7th call must run in ≤ 1 µs (micro-benchmark)~~.
 
 ---
 
