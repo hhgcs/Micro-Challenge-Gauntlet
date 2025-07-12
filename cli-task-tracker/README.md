@@ -4,7 +4,7 @@ A single-binary command-line program that lets a user record, list, complete, an
 
 ---
 
-## 🔧 Skills Exercised
+## Skills Exercised
 
 - File I/O  
 - Collections / LINQ  
@@ -14,13 +14,13 @@ A single-binary command-line program that lets a user record, list, complete, an
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Write code that someone (future me) would actually run — not just read.
 
 ---
 
-## 🚫 Constraints
+## Constraints
 
 - No external NuGet packages — only BCL / MSBuild / xUnit  
 - ≤ **500 lines** of production code (measured by `cloc`, excluding blanks/comments/tests)  
@@ -32,7 +32,7 @@ Write code that someone (future me) would actually run — not just read.
 
 ---
 
-## 💻 User-Visible Commands
+## User-Visible Commands
 
 ```bash
 todo add "Write spec" --due 2025-07-14   # Add new task  
@@ -90,7 +90,7 @@ No DI container — use constructor injection + new() as needed
 
 ---
 
-## ✅ Minimum Test Suite
+## Minimum Test Suite
 
 - Adding a task appends one element and persists to disk  
 - Marking a task as done flips the `done` flag and persists  
@@ -101,7 +101,7 @@ No DI container — use constructor injection + new() as needed
 
 ---
 
-## ⏱️ Performance Gate (Automatic)
+## Performance Gate (Automatic)
 
 Include an xUnit `[Fact]` test that:
 
@@ -109,11 +109,11 @@ Include an xUnit `[Fact]` test that:
 - Runs `CliRunner.Invoke("list")`  
 - Asserts elapsed execution time is **< 200ms** using `Stopwatch`
 
-> ❗ If this test fails, the build fails — performance is not optional.
+>  If this test fails, the build fails — performance is not optional.
 
 ---
 
-## 🚀 Stretch Goals (Post-MVP Only)
+## Stretch Goals (Post-MVP Only)
 
 | Feature                            | Skill Exercised              |
 |------------------------------------|------------------------------|
@@ -124,7 +124,7 @@ Include an xUnit `[Fact]` test that:
 
 ---
 
-## 📦 Delivery Checklist
+## Delivery Checklist
 
 - [ ] `README.md` with:
   - Build and run instructions
