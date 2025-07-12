@@ -6,7 +6,7 @@
 
 ---
 
-## ☑️ Execution Rules (Non-Negotiable)
+## Execution Rules (Non-Negotiable)
 
 1. **Ship before you’re ready** – 80 % functionality → release → refine.  
 2. **Tests from challenge #2 onward** – red ➜ green ➜ refactor.  
@@ -18,14 +18,14 @@ Copy these rules into every project’s `README`. Break one and the checkbox sta
 
 ---
 
-## 🔥 Challenge Ladder
+## Challenge Ladder
 
 ### 0. Warm-Up (48 h cap)
 - [ ] ~~**FizzBuzz, but evil** – every 7th call must run in ≤ 1 µs (micro-benchmark)~~.
 
 ---
 
-### 🟢 Junior Tier — Foundations
+### Junior Tier — Foundations
 
 | # | Project | Core Skills | Extra Constraints |
 |---|---------|-------------|-------------------|
@@ -35,7 +35,7 @@ Copy these rules into every project’s `README`. Break one and the checkbox sta
 
 ---
 
-### 🟡 Mid Tier — Real-World Layers
+### Mid Tier — Real-World Layers
 
 | # | Project | Core Skills | Ship-Fast Constraint |
 |---|---------|-------------|----------------------|
@@ -45,7 +45,7 @@ Copy these rules into every project’s `README`. Break one and the checkbox sta
 
 ---
 
-### 🟠 Mid-Senior Tier — Architecture & DevOps
+### Mid-Senior Tier — Architecture & DevOps
 
 | # | Project | Core Skills | Brutal Constraint |
 |---|---------|-------------|-------------------|
@@ -54,7 +54,7 @@ Copy these rules into every project’s `README`. Break one and the checkbox sta
 
 ---
 
-### 🔴 Senior Tier — Distributed, High-Load, Deep Internals
+### Senior Tier — Distributed, High-Load, Deep Internals
 
 | # | Project | Core Skills | Reality Check |
 |---|---------|-------------|---------------|
@@ -65,7 +65,7 @@ Copy these rules into every project’s `README`. Break one and the checkbox sta
 
 ---
 
-### 🏆 Master Stretch — “Hire-Me Anywhere” Artifact
+### Master Stretch — “Hire-Me Anywhere” Artifact
 
 | # | Project | Core Skills | Outcome |
 |---|---------|-------------|---------|
@@ -73,7 +73,7 @@ Copy these rules into every project’s `README`. Break one and the checkbox sta
 
 ---
 
-## 📅 Immediate Action
+## Immediate Action
 
 1. Fork a blank repo named **`Micro-Challenge-Gauntlet`**.  
 2. Paste this file as `README.md`.  
