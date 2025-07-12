@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fizzbuzz", "fizzbuzz", "{FE330C47-9AAB-4D23-8ECC-DC97461755C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzz", "FizzBuzz", "{011A7458-51B1-49AC-9A98-80F50CF7FCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Core", "fizzbuzz\FizzBuzz\FizzBuzz.Core\FizzBuzz.Core.csproj", "{AEBCE194-0D64-45CD-A935-F6C03ABE6505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "fizzbuzz\FizzBuzz\FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{440E4D40-8E99-4B01-BD35-1DEDC3AEC820}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli-task-tracker", "cli-task-tracker", "{EB6D65EA-C7D2-407E-BC62-71341C6E5799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLITaskTracker.Core", "cli-task-tracker\CLITaskTracker.Core\CLITaskTracker.Core.csproj", "{874448F5-8666-4123-9830-8376E451C226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLITaskTracker.Tests", "cli-task-tracker\CLITaskTracker.Tests\CLITaskTracker.Tests.csproj", "{8EC19D54-848A-41AB-81B0-53FDAFC2A73F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEBCE194-0D64-45CD-A935-F6C03ABE6505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBCE194-0D64-45CD-A935-F6C03ABE6505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBCE194-0D64-45CD-A935-F6C03ABE6505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBCE194-0D64-45CD-A935-F6C03ABE6505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440E4D40-8E99-4B01-BD35-1DEDC3AEC820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440E4D40-8E99-4B01-BD35-1DEDC3AEC820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440E4D40-8E99-4B01-BD35-1DEDC3AEC820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440E4D40-8E99-4B01-BD35-1DEDC3AEC820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874448F5-8666-4123-9830-8376E451C226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874448F5-8666-4123-9830-8376E451C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874448F5-8666-4123-9830-8376E451C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874448F5-8666-4123-9830-8376E451C226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC19D54-848A-41AB-81B0-53FDAFC2A73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC19D54-848A-41AB-81B0-53FDAFC2A73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC19D54-848A-41AB-81B0-53FDAFC2A73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC19D54-848A-41AB-81B0-53FDAFC2A73F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{011A7458-51B1-49AC-9A98-80F50CF7FCAC} = {FE330C47-9AAB-4D23-8ECC-DC97461755C9}
+		{AEBCE194-0D64-45CD-A935-F6C03ABE6505} = {011A7458-51B1-49AC-9A98-80F50CF7FCAC}
+		{440E4D40-8E99-4B01-BD35-1DEDC3AEC820} = {011A7458-51B1-49AC-9A98-80F50CF7FCAC}
+		{874448F5-8666-4123-9830-8376E451C226} = {EB6D65EA-C7D2-407E-BC62-71341C6E5799}
+		{8EC19D54-848A-41AB-81B0-53FDAFC2A73F} = {EB6D65EA-C7D2-407E-BC62-71341C6E5799}
+	EndGlobalSection
+EndGlobal
